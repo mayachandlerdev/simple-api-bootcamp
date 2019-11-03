@@ -1,0 +1,53 @@
+body{
+background-color: rgb(24, 218, 82);
+}
+#ye{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+}
+#trumpyelove{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#updown{
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 1.5s linear;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {margin-bottom:0;}
+    50%  {margin-top:50%;} 
+    100% {margin-bottom:0;}
+}
+button{
+border-radius: 25px;
+width: 25%;
+height: 50px;
+margin-left: 15%;
+background-color: red;
+color: black;
+font-size: 20px;
+border-color: red;
+}
+header{
+color: red;
+font-weight: bold;
+margin-bottom: 5%;
+font-size: 50px;
+text-align: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
